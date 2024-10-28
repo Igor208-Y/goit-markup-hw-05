@@ -702,9 +702,8 @@ margin-left: 16px;
 
  .modal-open:hover,
  .modal-open:focus {
-    background-color: #404bbf;
    border: none;
-    color: #ffffff;
+   background-color: #404bbf;
  }
 
  .button-icon {
@@ -713,7 +712,7 @@ margin-left: 16px;
  
  .button-icon:hover,
  .button-icon:focus {
-    fill: #fff;
+    fill: #ffffff;
  }
   
  
@@ -761,9 +760,6 @@ margin-left: 16px;
     margin-bottom: 4px;
  }
 
- .modal-field {
-  margin: 8px 16px;
- }
 
  .modal-icon {
     fill: transparent;
@@ -775,7 +771,7 @@ margin-left: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
  }
 
- .modal-comment {
+ .modal-field {
    margin-bottom: 16px;
    margin-top: 8px;
  }
@@ -814,7 +810,7 @@ margin-left: 16px;
  }
 
  .modal-checkbox {
-   margin-bottom: 24px;
+   width: 100%;
  }
 
  .modal-check-text {
@@ -833,12 +829,13 @@ margin-left: 16px;
     width: 16px;
     height: 16px;
     margin-right: 8px;
-   display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+    display: inline-flex;
+}
+
 
  .modal-check:checked + .modal-check-text span {
     background-color: #404bbf;
