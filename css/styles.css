@@ -772,8 +772,9 @@ margin-left: 16px;
    margin-bottom: 8px;
  }
 
- .modal-field .comment {
+ .modal-comment {
     margin-bottom: 16px;
+    margin-top: 8px;
  }
 
 
