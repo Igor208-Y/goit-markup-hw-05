@@ -824,10 +824,10 @@ margin-left: 16px;
     color: #8e8f99;
     display: flex;
     align-items: center;
-    
  }
 
- .modal-check-text span {
+
+ .modal-check-text .span {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;

@@ -388,20 +388,23 @@
                     </li>
                 </ul>
             </div>
+
             <div class="container-subscribe">
                 <p class="subscribe-text">Subscribe</p>
                 <form class="footer-form">
-                    <label class="footer-label" for="footer-email"></label>
+                    <label class="footer-label" for="footer-email">
                     <input class="footer-input" type="email" name="footer-email" id="footer-email" placeholder="E-mail">
                     <button class="subscribe-button" type="submit">Subscribe <svg class="subscribe-icon" width="24" height="24">
                         <use href="./images/modal-icons.svg#icon-frame"></use>
                     </svg></button>
-                    
+                    </label>
                 </form>
             </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+
+
+    <div class="backdrop ">
         <div class="modal">
             <button  type="button" class="modal-open">
                 <svg class="button-icon" width="8" height="8">
@@ -444,9 +447,9 @@
             </div>
 
             <div class="modal-checkbox">
-                <input type="checkbox" id="policy" name="policy" class="modal-check visually-hidden" value="true">
-                <label for="policy" class="modal-check-text">
-                    <span>
+                <input type="checkbox" id="user-privacy" name="user-privacy" class="modal-check visually-hidden" value="true">
+                <label for="user-privacy" class="modal-check-text">
+                    <span class="span">
                         <svg class="modal-check-icon" width="10" height="8">
                             <use href="./images/modal-icons.svg#icon-vector"></use>
                         </svg>
