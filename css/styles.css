@@ -704,6 +704,7 @@ margin-left: 16px;
  .modal-open:focus {
     background-color: #404bbf;
    border: none;
+    color: #ffffff;
  }
 
  .button-icon {
@@ -761,8 +762,7 @@ margin-left: 16px;
  }
 
  .modal-field {
-    margin-bottom: 8px;
-    margin-top: 16px;
+  margin: 8px 16px;
  }
 
  .modal-icon {
@@ -777,6 +777,12 @@ margin-left: 16px;
 
  .modal-comment {
    margin-bottom: 16px;
+   margin-top: 8px;
+ }
+
+
+ .label-modal {
+    
  }
 
  .modal-textarea {
@@ -791,7 +797,6 @@ margin-left: 16px;
    line-height: 1.17;
    letter-spacing: 0.04em;
    color: rgba(46, 47, 66, 0.4);
-   border: 1px solid rgba(46, 47, 66, 0.4);
    padding: 8px 16px;
    outline: transparent;
    resize: none;
